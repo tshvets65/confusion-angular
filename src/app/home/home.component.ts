@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
     this.promotionservice.getFeaturedPromotion()
       .then((promo) => this.promotion = promo);
     this.leaderservice.getFeaturedLeader()
-      .then((leader) => this.leader = leader;
+      .then((leader) => this.leader = leader);
   }
 
 }
